@@ -12,10 +12,10 @@ import java.util.Optional;
 @Value
 @Builder
 public class Course {
-    private String id;
-    private String name;
-    private Teacher teacher;
-    private Student student;
+    String id;
+    String name;
+    Teacher teacher;
+    Student student;
 
 
     }
